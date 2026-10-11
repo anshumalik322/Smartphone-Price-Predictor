@@ -33,7 +33,8 @@ st.write("Predict the estimated price of a smartphone using Machine Learning.")
 
 @st.cache_data
 def load_data():
-    return pd.read_csv("smartphone_data.csv")
+    return pd.read_csv("smartphone_data_100_filled.csv")
+    
 
 
 df = load_data()
